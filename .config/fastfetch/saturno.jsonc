@@ -1,0 +1,61 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "~/.config/fastfetch/saturn.txt",
+    "type": "file",
+    "padding": {
+      "top": 1,
+      "left": 2,
+      "right": 2
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "key": "|| 改善 ||",
+      "keyColor": "#71c8a6"
+    },
+    "break",
+    {
+      "type": "custom",
+      "key": "  Powewed by Archlinux (≧◡≦)",
+      "keyColor": "blue"
+    },
+    {
+      "type": "kernel",
+      "key": " ",
+      "keyColor": "dim_"
+    },
+    {
+      "type": "cpu",
+      "key": " ",
+      "keyColor": "yellow",
+      "format": "{}"
+    },
+    {
+      "type": "memory",
+      "key": " ",
+      "keyColor": "green",
+      "format": "{used} of {total} [{percentage}]"
+    },
+    {
+      "type": "packages",
+      "format": "{} (pacman)",
+      "key": " ",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "uptime",
+      "key": " ",
+      "keyColor": "red"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+  ]
+}

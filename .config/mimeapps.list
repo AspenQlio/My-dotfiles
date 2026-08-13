@@ -1,0 +1,15 @@
+
+[Default Applications]
+inode/directory=org.kde.dolphin.desktop
+x-scheme-handler/pttp=CiscoPacketTracerPtsa-9.0.0.desktop
+application/x-pka=CiscoPacketTracer-9.0.0.desktop
+application/x-pkt=CiscoPacketTracer-9.0.0.desktop
+application/x-pkz=CiscoPacketTracer-9.0.0.desktop
+application/x-pksz=CiscoPacketTracer-9.0.0.desktop
+text/html=firefox.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/about=firefox.desktop
+x-scheme-handler/unknown=firefox.desktop
+x-scheme-handler/claude-cli=claude-code-url-handler.desktop
+x-scheme-handler/stremio=stremio-enhanced.desktop
